@@ -2,7 +2,7 @@
 import os
 import subprocess
 import platform
-
+# 废弃 这个类可以不用
 
 class auto_adb():
     def __init__(self):
@@ -30,6 +30,18 @@ class auto_adb():
             print('具体链接: https://github.com/wangshub/wechat_jump_game/wiki')
             exit(1)
 
+    def swip(self):
+        cmd = 'shell input swipe {x1} {y1} {x2} {y2} {duration}'.format(
+            x1=250,
+            y1=600,
+            x2=700,
+            y2=600,
+            duration=500
+        )
+        adb = auto_adb()
+        adb.run(cmd)
+
+    # swip()
     def get_screen(self):
         process = os.popen(self.adb_path + ' shell wm size')
         output = process.read()
