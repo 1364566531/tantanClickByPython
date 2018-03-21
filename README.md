@@ -5,7 +5,7 @@
 
 
 
- ![gif](https://github.com/vipheyue/UIAutomator/blob/master/gif/%E6%9C%AA%E5%91%BD%E5%90%8D.gif?raw=true)  		 + 需要运行unitTest 
+ ![gif](https://github.com/vipheyue/UIAutomator/blob/master/gif/%E6%9C%AA%E5%91%BD%E5%90%8D.gif?raw=true) 
  -		
  -[点击观看视频](https://github.com/vipheyue/UIAutomator/raw/master/gif/IMG_0387.mp4)
 
