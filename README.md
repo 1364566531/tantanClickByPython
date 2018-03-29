@@ -1,12 +1,17 @@
 # 探探自动点击 自动滑动
 
-1:配置好 ADB 路径
-2: 安装好 python
-3:执行 python3 /Users/heyue/Documents/Work/pythonSpace/tantanClickByPython/swip.py
-
-如果 adb 有问题 可以把 swip.py 中的 adb 替换为绝对路径 /Users/heyue/Documents/Work/sdk/platform-tools/adb
+条件:配置好 ADB 路径 自己百度
 
 
-DEBUG:
-    设置->开发者选项->可以拔指针位置打开 就能知道按钮的位置了,可以自己定义
+方式一 打开终端:
+    chmod 755 tantan.sh的绝对路径
+    ./tantan.sh的绝对路径
+
+
+方式二 打开终端:
+1: 安装好 python
+2:执行 python3 swip.py的绝对路径
+
+
+
 
