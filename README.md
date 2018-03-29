@@ -2,7 +2,6 @@
 
 条件:配置好 ADB 路径 自己百度
 
-
 方式一 打开终端:
     chmod 755 tantan.sh的绝对路径
     ./tantan.sh的绝对路径
